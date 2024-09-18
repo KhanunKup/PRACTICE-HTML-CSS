@@ -1,0 +1,49 @@
+p {
+    font-family: Arial;
+    color: gray;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.email {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    font-size: 16px;
+    width: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.policy {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    color: white;
+    font-size: 16px;
+    background-color: rgb(32, 144, 223);
+    border: none;
+    border-radius: 25px;
+    width: 400px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition: opacity 0.15s;
+}
+
+.button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.button:active{
+    opacity: 0.5;
+}
