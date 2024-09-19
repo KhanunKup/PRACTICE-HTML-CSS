@@ -1,0 +1,42 @@
+input {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    font-size: 16px;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.first,
+.last {
+    width: 148px;
+}    
+
+.email {
+    display: block;
+    width: 320px;
+}
+
+.button {
+    background-color: rgb(38, 113, 206);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    width: 340px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.button:active {
+    opacity: 0.5;
+}

@@ -1,0 +1,52 @@
+button {
+    border: none;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: opacity 0.15s;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.5;
+}
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.request {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.pickup,
+.des {
+    border: none;
+    display: block;
+    color: rgb(30, 30, 30);
+    background-color: rgb(240, 240, 240);
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 10px;
+    margin-bottom: 6px;
+}
+
+.black {
+    color: white;
+    background: black;
+    margin-right: 13px;
+}
+
+.grey {
+    background-color: rgb(240, 240, 240);
+}
