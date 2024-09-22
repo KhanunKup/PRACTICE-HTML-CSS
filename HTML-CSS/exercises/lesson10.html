@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacebookV2</title>
+    <style>
+        p {
+            font-size: 16px;
+            font-family: Arial;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .profile-card {
+            box-shadow: rgba(0, 0, 0.01) 0px 1px 8px;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .profile {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .personal-info {
+            margin-left: 6px;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .mutual-profiles {
+            height: 28px;
+            width: 28px;
+            border-radius: 14px;
+            object-fit: cover;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .mutual-friends {
+            color: grey;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .profiles {
+            margin-bottom: 8px;
+        }
+        button {
+            font-size: 14px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: rgb(56, 138, 239);
+            margin-bottom: 10px;
+            transition: 0.15s;
+        }
+        
+        button:hover {
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        button:active {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div>
+            <img class="profile" src="ex_Styles/ex_thumbnails/cat.jpg">
+        </div>
+        <div class="personal-info">
+            <div>
+                <p class="name">
+                    Oliver
+                </p>
+                <div class="profiles">
+                    <img  class="mutual-profiles" src="ex_Styles/ex_thumbnails/cat.jpg">
+                    <p class="mutual-friends">
+                        2 mutual-friends
+                    </p>
+                </div>
+            </div>
+            <button class="button">
+                Add Friend
+            </button>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <div>
+            <img class="profile" src="ex_Styles/ex_thumbnails/cat.jpg">
+        </div>
+        <div class="personal-info">
+            <div>
+                <p class="name">
+                    Mike
+                </p>
+                <div class="profiles">
+                    <img  class="mutual-profiles" src="ex_Styles/ex_thumbnails/cat.jpg">
+                    <p class="mutual-friends">
+                        5 mutual-friends
+                    </p>
+                </div>
+            </div>
+            <button class="button">
+                Add Friend
+            </button>
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <div>
+            <img class="profile" src="ex_Styles/ex_thumbnails/cat.jpg">
+        </div>
+        <div class="personal-info">
+            <div>
+                <p class="name">
+                    Tim
+                </p>
+                <div class="profiles">
+                    <img  class="mutual-profiles" src="ex_Styles/ex_thumbnails/cat.jpg">
+                    <p class="mutual-friends">
+                        9 mutual-friends
+                    </p>
+                </div>
+            </div>
+            <button class="button">
+                Add Friend
+            </button>
+        </div>
+    </div>
+</body>
+</html>
