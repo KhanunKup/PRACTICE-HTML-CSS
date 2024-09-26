@@ -1,0 +1,37 @@
+body {
+  height: 3000px;
+}
+.right-sidebar {
+  background-color: green;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  color: white;
+}
+.overlay-box {
+  display: flex;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+.model-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.model {
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
