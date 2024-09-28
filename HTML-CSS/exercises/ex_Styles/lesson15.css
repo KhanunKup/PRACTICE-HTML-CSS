@@ -1,0 +1,52 @@
+.cloth-card {
+	display: inline-block;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.tag-price-sale {
+	position: absolute;
+	background-color: black;
+	color: white;
+}
+.cloth-picture {
+	width: 200px;
+}
+
+.tag-price-sale {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	right: 0;
+	top: 6px;
+}
+
+.button {
+	font-size: 12px;
+	background-color: rgb(240, 240, 240);
+	border-width: 1px;
+	border-style: solid;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.add-to-cart {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(255, 255, 255 ,0.8);
+}
