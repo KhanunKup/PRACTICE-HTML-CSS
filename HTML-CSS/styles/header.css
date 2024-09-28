@@ -26,13 +26,16 @@
   margin-left: 24px;
   margin-right: 24px;
   height: 20px;
+  cursor: pointer;
 }
 
 .youtube-logo {
   height: 20px;
+  cursor: pointer;
 }
 
-.search-button {
+.search-button ,
+.voice-search-button{
   height: 39px;
   width: 66px;
   background-color: rgb(240, 240, 240);
@@ -41,10 +44,53 @@
   border-color: grey;
   margin-left: -1px;
   margin-right: 10px;
+
+  position: relative;
+}
+
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.app-icon-container,
+.notifications-icon-container {
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.app-icon-container .tooltip,
+.notifications-icon-container .tooltip {
+  font-family: Roboto,Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip, 
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.app-icon-container:hover .tooltip,
+.notifications-icon-container:hover .tooltip{
+  opacity: 1;
 }
 
 .search-icon {
-  margin-top: 5px;
   height: 25px;
 }
 
@@ -75,7 +121,6 @@
 }
 
 .voice-search-icon {
-  margin-top: 4px;
   height: 24px;
 }
 
@@ -127,6 +172,7 @@
   padding-top: 2px;
   padding-bottom: 2px;
 }
+
 .user-icon {
   border-radius: 16px;
   height: 32px;
